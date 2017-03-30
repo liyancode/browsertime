@@ -1,7 +1,7 @@
 language: node_js
 
 sudo: required
-service: docker
+services: docker
 
 before_install:
   - docker build -t sitespeedio/browsertime .
